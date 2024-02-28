@@ -49,6 +49,7 @@ class Student{
 }
 public class GradingSystem {
 
+    // Method for assigning the Grades on the basis of marks
     public void assignGrade(double score){
         if(score >= 90 && score <= 100){
             System.out.println("A");
@@ -65,6 +66,7 @@ public class GradingSystem {
         }
     }
 
+    // Method for calculating the average score for a paticular student
     public int averageScore(int mathScore, int englishScore, int scienceScore){
         int result = (mathScore+englishScore+scienceScore)/3;
         return result;

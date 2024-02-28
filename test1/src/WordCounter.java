@@ -47,4 +47,7 @@ public class WordCounter {
         fileWriter.write(str);
         fileWriter.close();
     }
+
+    // Sort the map entry by the keyValue basis by comparator and comparable class;
+
 }
